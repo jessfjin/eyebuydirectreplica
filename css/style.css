@@ -1,0 +1,83 @@
+/*initial properties*/
+
+.logo {
+	text-align: center;
+}
+
+ul	{
+	margin: 0 auto;
+	padding: 0px;
+	width: 99%;
+	display: inline-block;
+	position: relative;
+	bottom: 35px;
+}
+
+#right {
+	float: right;
+	text-align: right;
+	position: relative;
+	bottom: 60px;
+}
+
+#mid {
+	position: relative;
+	left: 150px;
+}
+
+li	{
+	display: inline-block;
+	padding: 0px 5px;
+}
+
+nav {
+	height: 50px;
+}
+
+.box {
+	border: black 1px solid;
+	margin: 10px 25px;
+	height: 150px;
+
+}
+
+.brands {
+	margin: 0 auto;
+	width: 90%;
+}
+
+
+
+/*media queries*/
+
+@media only screen and (max-width: 1025px) {
+	.largenav {
+		visibility: hidden;
+	}
+	.smallnav {
+		visibility: show;
+	}
+}
+
+@media only screen and (max-width: 995px) {
+    .brands {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .brands {
+        margin: 0 auto;
+        padding: 0px;
+        width: 750px;
+    }
+}
+
+
+
+
+
+
+
+
+
