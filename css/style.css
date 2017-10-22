@@ -13,16 +13,30 @@ ul	{
 	bottom: 35px;
 }
 
-#right {
+#smnavright {
 	float: right;
 	text-align: right;
 	position: relative;
 	bottom: 60px;
+	/*top: 0px;*/
 }
 
-#mid {
+.navbar-brand-lg {
+	position: relative;
+	bottom: 58px;
+}
+#lgnavmid {
 	position: relative;
 	left: 150px;
+	bottom: 88px;
+}
+
+#lgnavright {
+	float: right;
+	text-align: right;
+	position: relative;
+	bottom: 115px;
+	/*top: 0px;*/
 }
 
 li	{
@@ -46,6 +60,11 @@ nav {
 	width: 90%;
 }
 
+.jumbotron {
+	position: relative;
+	bottom: 55px;
+	height: 450px
+}
 
 
 /*media queries*/
@@ -56,6 +75,16 @@ nav {
 	}
 	.smallnav {
 		visibility: show;
+	}
+}
+
+@media only screen and (min-width: 1025px) {
+	.largenav {
+		visibility: show;
+		top: 0;
+	}
+	.smallnav {
+		visibility: hidden;
 	}
 }
 
